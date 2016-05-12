@@ -1,0 +1,50 @@
+query("TextView {text BEGINSWITH 'Window'}")
+touch("TextView {text BEGINSWITH 'Window'}")
+query("*")
+touch("CloseButton id:'window_list_close'")
+start_test_server_in_background
+for _ in 0..$nb_windows.to_i
+    touch("ActionMenuItemView id:'menu_new_window'")
+    sleep 1
+  end
+for _ in 0..5
+touch("ActionMenuItemView id:'menu_new_window'")
+sleep 1
+end
+start_test_server_in_background
+start_test_server_in_background
+query("*")
+start_test_server_in_background
+start_test_server_in_background
+start_test_server_in_background
+start_test_server_in_background
+query("Button")
+query("OverflowMenuButton")
+start_test_server_in_background
+start_test_server_in_background
+query("")
+touch("TextView marked:'Take WakeLock'")
+start_test_server_in_background
+start_test_server_in_background
+query("*")
+query("TextView")
+query("*")
+query("checkbox")
+touch("CheckBox id:'checkbox'")
+query("checkbox")
+query("checkbox")
+touch("CheckBox id:'checkbox'")
+touch("CheckBox id:'checkbox'")
+touch("CheckBox id:'checkbox'")
+for i in query("checkbox")
+    touch("CheckBox id:'checkbox'")
+end
+end
+touch("CheckBox id:'checkbox'")
+query("checkbox")
+query("checkbox")
+query("checkbox")
+query("checkbox")
+start_test_server_in_background
+query("checkbox")
+start_test_server_in_background

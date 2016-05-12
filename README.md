@@ -5,7 +5,7 @@ Content
 -------
 
 * **apps/** contains our own tests and custom Android applications,
-* **results/** contains our output measures,
+* **results/** contains our output measures (***soon***),
 * **scenarios/** contains our [Calabash](http://calaba.sh) and [Robotium](http://robotium.com) user-based scenarios.
 
 Credits

@@ -18,11 +18,11 @@ Then(/^I drag left$/) do
 end
 
 Then(/^I drag up$/) do
-	perform_action('drag', 50, 50, 25, 75, 5)
+	perform_action('drag', 25, 25, 25, 75, 10)
 end
 
 Then(/^I drag down$/) do
-	perform_action('drag', 50, 50, 75, 25, 5)
+	perform_action('drag', 25, 25, 75, 25, 10)
 end
 
 ##
@@ -150,8 +150,7 @@ end
 
 Then(/^I choose on harry/) do
 	# You must wait after this action
-	touch("AppCompatTextView marked:'Harry Potter and the Methods of Rationality'")
-	sleep 2
+	touch("AppCompatTextView marked:'Harry Potter and the Methods of Rationality: The Podcast'")
 end
 
 # Harry

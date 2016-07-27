@@ -1,0 +1,137 @@
+****** START : 2016-07-27 15:26:24.651454
+APP: /Users/antonin/Documents/internship/apps/RUNNERUP/RunnerUp_NOALL.apk	
+COMMAND : calabash-android run /Users/antonin/Documents/internship/apps/RUNNERUP/RunnerUp_NOALL.apk
+Feature: Let's make a better world using RunnerUp (#LOL)
+
+  Scenario: Hey June...                   # features/my_first.feature:3
+    Then I begin                          # features/step_definitions/calabash_steps.rb:4
+    Then I go to main menu                # features/step_definitions/calabash_steps.rb:45
+    Then I go to basic submenu            # features/step_definitions/calabash_steps.rb:51
+    Then I change audio cue settings      # features/step_definitions/calabash_steps.rb:57
+    Then I check 100m setting             # features/step_definitions/calabash_steps.rb:65
+    Then I change sport settings          # features/step_definitions/calabash_steps.rb:71
+    Then I check running setting          # features/step_definitions/calabash_steps.rb:75
+    Then I change sport settings          # features/step_definitions/calabash_steps.rb:71
+    Then I check biking setting           # features/step_definitions/calabash_steps.rb:79
+    Then I change sport settings          # features/step_definitions/calabash_steps.rb:71
+    Then I check other setting            # features/step_definitions/calabash_steps.rb:83
+    Then I go to interval submenu         # features/step_definitions/calabash_steps.rb:111
+    Then I change audio cue settings      # features/step_definitions/calabash_steps.rb:57
+    Then I check default setting          # features/step_definitions/calabash_steps.rb:61
+    Then I change rest type settings      # features/step_definitions/calabash_steps.rb:131
+    Then I check distance setting         # features/step_definitions/calabash_steps.rb:125
+    Then I change rest type settings      # features/step_definitions/calabash_steps.rb:131
+    Then I check time setting             # features/step_definitions/calabash_steps.rb:121
+    Then I go to history menu             # features/step_definitions/calabash_steps.rb:150
+    Then I go to settings menu            # features/step_definitions/calabash_steps.rb:154
+    Then I check autolap                  # features/step_definitions/calabash_steps.rb:192
+    Then I check autopause                # features/step_definitions/calabash_steps.rb:200
+    Then I check runner up live           # features/step_definitions/calabash_steps.rb:204
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I check auto start gps           # features/step_definitions/calabash_steps.rb:224
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I go to about submenu            # features/step_definitions/calabash_steps.rb:228
+    Then I close the about submenu        # features/step_definitions/calabash_steps.rb:232
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I go to accounts submenu         # features/step_definitions/calabash_steps.rb:160
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I want to switch format          # features/step_definitions/calabash_steps.rb:166
+    Then I switch to table format         # features/step_definitions/calabash_steps.rb:170
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I go back                        # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:1
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I go to advanced options submenu # features/step_definitions/calabash_steps.rb:236
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I export data on sdcard          # features/step_definitions/calabash_steps.rb:240
+    Then I close the export menu          # features/step_definitions/calabash_steps.rb:244
+    Then I check experimental features    # features/step_definitions/calabash_steps.rb:248
+    Then I check mock hrm devices         # features/step_definitions/calabash_steps.rb:252
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I go back                        # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:1
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I go to accounts submenu         # features/step_definitions/calabash_steps.rb:160
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I go back                        # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:1
+    Then I go to main menu                # features/step_definitions/calabash_steps.rb:45
+    Then I go to basic submenu            # features/step_definitions/calabash_steps.rb:51
+    Then I change audio cue settings      # features/step_definitions/calabash_steps.rb:57
+    Then I check 100m setting             # features/step_definitions/calabash_steps.rb:65
+    Then I change sport settings          # features/step_definitions/calabash_steps.rb:71
+    Then I check running setting          # features/step_definitions/calabash_steps.rb:75
+    Then I change sport settings          # features/step_definitions/calabash_steps.rb:71
+    Then I check biking setting           # features/step_definitions/calabash_steps.rb:79
+    Then I change sport settings          # features/step_definitions/calabash_steps.rb:71
+    Then I check other setting            # features/step_definitions/calabash_steps.rb:83
+    Then I go to interval submenu         # features/step_definitions/calabash_steps.rb:111
+    Then I change audio cue settings      # features/step_definitions/calabash_steps.rb:57
+    Then I check default setting          # features/step_definitions/calabash_steps.rb:61
+    Then I change rest type settings      # features/step_definitions/calabash_steps.rb:131
+    Then I check distance setting         # features/step_definitions/calabash_steps.rb:125
+    Then I change rest type settings      # features/step_definitions/calabash_steps.rb:131
+    Then I check time setting             # features/step_definitions/calabash_steps.rb:121
+    Then I go to history menu             # features/step_definitions/calabash_steps.rb:150
+    Then I go to settings menu            # features/step_definitions/calabash_steps.rb:154
+    Then I check autolap                  # features/step_definitions/calabash_steps.rb:192
+    Then I check autopause                # features/step_definitions/calabash_steps.rb:200
+    Then I check runner up live           # features/step_definitions/calabash_steps.rb:204
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I check auto start gps           # features/step_definitions/calabash_steps.rb:224
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I go to about submenu            # features/step_definitions/calabash_steps.rb:228
+    Then I close the about submenu        # features/step_definitions/calabash_steps.rb:232
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I go to accounts submenu         # features/step_definitions/calabash_steps.rb:160
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I want to switch format          # features/step_definitions/calabash_steps.rb:166
+    Then I switch to table format         # features/step_definitions/calabash_steps.rb:170
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I go back                        # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:1
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I go to advanced options submenu # features/step_definitions/calabash_steps.rb:236
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I export data on sdcard          # features/step_definitions/calabash_steps.rb:240
+    Then I close the export menu          # features/step_definitions/calabash_steps.rb:244
+    Then I check experimental features    # features/step_definitions/calabash_steps.rb:248
+    Then I check mock hrm devices         # features/step_definitions/calabash_steps.rb:252
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I go back                        # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:1
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I go to accounts submenu         # features/step_definitions/calabash_steps.rb:160
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I scroll up                      # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:39
+    Then I scroll down                    # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:35
+    Then I go back                        # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:1
+    Then I go to main menu                # features/step_definitions/calabash_steps.rb:45
+    Then I go to manual submenu           # features/step_definitions/calabash_steps.rb:142
+
+1 scenario (1 passed)
+125 steps (125 passed)
+2m1.651s
+
+****** STOP : 2016-07-27 15:28:28.235582

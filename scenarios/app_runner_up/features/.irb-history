@@ -1,0 +1,23 @@
+reinstall_apps
+start_test_server_in_background
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+query("*")
+touch("TextView marked='Basic'")
+touch("TextView marked:'Basic'")
+touch("TextView marked:'Audio cue settings'")
+query("*")
+touch("TextView marked:'Audio cue settings'")
+start_test_server_in_background
+query("*")
+query("*")
+start_test_server_in_background
+start_test_server_in_background
+query("*")
+query("*")
+touch("OverflowMenuButton marked:'More options'")
+query("*")
+touch("AppCompatTextView marked:'Table format'")
+query("*")
+exit

@@ -1,0 +1,258 @@
+****** START : 2016-08-04 13:13:43.718909
+APP: /Users/antonin/Documents/internship/apps/TODO/Todo_ORI.apk	
+COMMAND : calabash-android run /Users/antonin/Documents/internship/apps/TODO/Todo_ORI.apk
+Feature: Even a Todo list can be valid for tests!
+
+  Scenario: Hey Todo list, c'mon...                         # features/my_first.feature:3
+  Could not execute command to start test server (RuntimeError)
+  ./features/support/app_life_cycle_hooks.rb:5:in `Before'
+
+****** STOP : 2016-08-04 13:13:54.772389
+    Then I begin                                            # features/step_definitions/calabash_steps.rb:4
+    Then I touch categories menu                            # features/step_definitions/calabash_steps.rb:124
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I create the category University                   # features/step_definitions/calabash_steps.rb:133
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I create the category PersonalStufff               # features/step_definitions/calabash_steps.rb:133
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I create the category Movies                       # features/step_definitions/calabash_steps.rb:133
+    Then I wait for a second                                # calabash-android-0.7.3/lib/calabash-android/steps/progress_steps.rb:18
+    Then I go back                                          # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:1
+    Then I create a new todo                                # features/step_definitions/calabash_steps.rb:28
+    Then I name it Test Todo app                            # features/step_definitions/calabash_steps.rb:37
+    Then I change the priority to 4                         # features/step_definitions/calabash_steps.rb:41
+    Then I change the category to University                # features/step_definitions/calabash_steps.rb:47
+    Then I click on private                                 # features/step_definitions/calabash_steps.rb:83
+    Then I click on private                                 # features/step_definitions/calabash_steps.rb:83
+    Then I change the due date to 8/7 – Sunday              # features/step_definitions/calabash_steps.rb:53
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I drag down                                        # features/step_definitions/calabash_steps.rb:24
+    Then I save the new todo                                # features/step_definitions/calabash_steps.rb:88
+    Then I create a new todo                                # features/step_definitions/calabash_steps.rb:28
+    Then I name it Research Paper                           # features/step_definitions/calabash_steps.rb:37
+    Then I change the priority to 3                         # features/step_definitions/calabash_steps.rb:41
+    Then I change the category to University                # features/step_definitions/calabash_steps.rb:47
+    Then I click on private                                 # features/step_definitions/calabash_steps.rb:83
+    Then I click on private                                 # features/step_definitions/calabash_steps.rb:83
+    Then I change the due date to 8/7 – Sunday              # features/step_definitions/calabash_steps.rb:53
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I drag down                                        # features/step_definitions/calabash_steps.rb:24
+    Then I save the new todo                                # features/step_definitions/calabash_steps.rb:88
+    Then I create a new todo                                # features/step_definitions/calabash_steps.rb:28
+    Then I name it Research Report                          # features/step_definitions/calabash_steps.rb:37
+    Then I change the priority to 2                         # features/step_definitions/calabash_steps.rb:41
+    Then I change the category to PersonalStufff            # features/step_definitions/calabash_steps.rb:47
+    Then I click on private                                 # features/step_definitions/calabash_steps.rb:83
+    Then I change the due date to 8/7 – Sunday              # features/step_definitions/calabash_steps.rb:53
+    Then I change hiding text until 8                       # features/step_definitions/calabash_steps.rb:60
+    Then I click on private                                 # features/step_definitions/calabash_steps.rb:83
+    Then I check the alarm                                  # features/step_definitions/calabash_steps.rb:70
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I leave the note Oh my god, I'm really scared!     # features/step_definitions/calabash_steps.rb:103
+    Then I save the new todo                                # features/step_definitions/calabash_steps.rb:88
+    Then I create a new todo                                # features/step_definitions/calabash_steps.rb:28
+    Then I name it Don't Breath                             # features/step_definitions/calabash_steps.rb:37
+    Then I change the priority to 1                         # features/step_definitions/calabash_steps.rb:41
+    Then I change the category to Movies                    # features/step_definitions/calabash_steps.rb:47
+    Then I click on private                                 # features/step_definitions/calabash_steps.rb:83
+    Then I change the due date to 8/7 – Sunday              # features/step_definitions/calabash_steps.rb:53
+    Then I change hiding text until 1                       # features/step_definitions/calabash_steps.rb:60
+    Then I click on private                                 # features/step_definitions/calabash_steps.rb:83
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I leave the note Oh my god, that's gonna be great! # features/step_definitions/calabash_steps.rb:103
+    Then I save the new todo                                # features/step_definitions/calabash_steps.rb:88
+    Then I create a new todo                                # features/step_definitions/calabash_steps.rb:28
+    Then I name it Totoro                                   # features/step_definitions/calabash_steps.rb:37
+    Then I change the priority to 1                         # features/step_definitions/calabash_steps.rb:41
+    Then I change the category to Movies                    # features/step_definitions/calabash_steps.rb:47
+    Then I leave the note Don't forget to buy ice cream!    # features/step_definitions/calabash_steps.rb:103
+    Then I save the new todo                                # features/step_definitions/calabash_steps.rb:88
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for PersonalStufff               # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for PersonalStufff               # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for PersonalStufff               # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for PersonalStufff               # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for PersonalStufff               # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I check the todo                                   # features/step_definitions/calabash_steps.rb:32
+    Then I check the todo                                   # features/step_definitions/calabash_steps.rb:32
+    Then I touch categories menu                            # features/step_definitions/calabash_steps.rb:124
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I create the category Grocery                      # features/step_definitions/calabash_steps.rb:133
+    Then I go back                                          # calabash-android-0.7.3/lib/calabash-android/steps/navigation_steps.rb:1
+    Then I create a new todo                                # features/step_definitions/calabash_steps.rb:28
+    Then I name it Bread                                    # features/step_definitions/calabash_steps.rb:37
+    Then I change the category to Grocery                   # features/step_definitions/calabash_steps.rb:47
+    Then I change the category to Movies                    # features/step_definitions/calabash_steps.rb:47
+    Then I change the category to Grocery                   # features/step_definitions/calabash_steps.rb:47
+    Then I change the due date to 8/8 – Monday              # features/step_definitions/calabash_steps.rb:53
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I leave the note French bread!                     # features/step_definitions/calabash_steps.rb:103
+    Then I save the new todo                                # features/step_definitions/calabash_steps.rb:88
+    Then I create a new todo                                # features/step_definitions/calabash_steps.rb:28
+    Then I name it Vegetables                               # features/step_definitions/calabash_steps.rb:37
+    Then I change the category to Grocery                   # features/step_definitions/calabash_steps.rb:47
+    Then I change the due date to 8/8 – Monday              # features/step_definitions/calabash_steps.rb:53
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I leave the note Vegetables!                       # features/step_definitions/calabash_steps.rb:103
+    Then I save the new todo                                # features/step_definitions/calabash_steps.rb:88
+    Then I create a new todo                                # features/step_definitions/calabash_steps.rb:28
+    Then I name it Tron                                     # features/step_definitions/calabash_steps.rb:37
+    Then I change the priority to 1                         # features/step_definitions/calabash_steps.rb:41
+    Then I change the category to Movies                    # features/step_definitions/calabash_steps.rb:47
+    Then I change the due date to 8/8 – Monday              # features/step_definitions/calabash_steps.rb:53
+    Then I change the due date to 8/7 – Sunday              # features/step_definitions/calabash_steps.rb:53
+    Then I change the due date to 8/8 – Monday              # features/step_definitions/calabash_steps.rb:53
+    Then I change the due date to 8/7 – Sunday              # features/step_definitions/calabash_steps.rb:53
+    Then I change the due date to 8/8 – Monday              # features/step_definitions/calabash_steps.rb:53
+    Then I change the due date to 8/8 – Monday              # features/step_definitions/calabash_steps.rb:53
+    Then I change the due date to 8/8 – Monday              # features/step_definitions/calabash_steps.rb:53
+    Then I change the due date to 8/7 – Sunday              # features/step_definitions/calabash_steps.rb:53
+    Then I change the due date to 8/8 – Monday              # features/step_definitions/calabash_steps.rb:53
+    Then I change the due date to 8/8 – Monday              # features/step_definitions/calabash_steps.rb:53
+    Then I change hiding text until 1                       # features/step_definitions/calabash_steps.rb:60
+    Then I change repeat thing to Every week                # features/step_definitions/calabash_steps.rb:77
+    Then I save the new todo                                # features/step_definitions/calabash_steps.rb:88
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for PersonalStufff               # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for PersonalStufff               # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for PersonalStufff               # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for PersonalStufff               # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for PersonalStufff               # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for PersonalStufff               # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for Movies                       # features/step_definitions/calabash_steps.rb:120
+    Then I edit categories                                  # features/step_definitions/calabash_steps.rb:128
+    Then I change category for University                   # features/step_definitions/calabash_steps.rb:120
+    Then I check the todo                                   # features/step_definitions/calabash_steps.rb:32

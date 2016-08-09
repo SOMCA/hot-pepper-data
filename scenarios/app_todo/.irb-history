@@ -1,0 +1,50 @@
+query("EditText, marked:''")
+query("EditText marked:''")
+start_test_server_in_background
+query("*")
+enter_text("DetailEditTextPriority", "3")
+touch("LinearLayout id:'LinearLayout01'")
+enter_text("LinearLayout01", 1)
+enter_text("LinearLayout01", "1")
+query("LinearLayout01", setText: "32")
+query("LinearLayout01", setText: "32")
+query("LinearLayout01")
+query("LinearLayout")
+query("LinearLayout01")
+query("LinearLayout id:'LinearLayout01'")
+query("LinearLayout id:'LinearLayout01'", setText: "3")
+touch("LinearLayout01")
+touch("LinearLayout id:'LinearLayout01'")
+enter_keyboard()
+type_into_keyboard()
+query("*")
+query("EditText")
+query("EditText id:'DetailEditTextPriority'", setText: "3")
+query("EditText id:'DetailEditTextPriority'", setText: "36")
+hide_soft_keyboard
+start_test_server_in_background
+query("*")
+query("TextView marked:'8/7 – Sunday'")
+query("TextView marked:'8/7 – Sunday'")
+start_test_server_in_background
+query("TextView marked:'8/7 – Sunday'")
+start_test_server_in_background
+query("*")
+start_test_server_in_background
+start_test_server_in_background
+query("*")
+start_test_server_in_background
+start_test_server_in_background
+query("*")
+query("EditText id:'NoteEditText'", setText: "Hello world!")
+start_test_server_in_background
+query("*")
+query("*")
+start_test_server_in_background
+query("*")
+query("*")
+query("*")
+query("*")
+query("*")
+start_test_server_in_background
+start_test_server_in_background

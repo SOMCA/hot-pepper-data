@@ -42,7 +42,7 @@ Feature: Aizoban
 
 	Then I put it on favourite
 	Then I drag down
-	Then I want to read the 490
+	Then I want to read the 498
 	Then I wait for 3 seconds
 	Then I drag right
 	Then I drag right
@@ -63,14 +63,14 @@ Feature: Aizoban
 	Then I go to the next page
 	Then I go to the next page
 	Then I go to the next page
-	Then I go to the next page
+	#Then I go to the next page
 	Then I drag right
 
 	# METAMO KISS
 
 	Then I put it on favourite
 	Then I drag down
-	Then I want to read the 15
+	Then I want to read the 17
 	Then I drag right
 	Then I drag right
 	Then I drag right

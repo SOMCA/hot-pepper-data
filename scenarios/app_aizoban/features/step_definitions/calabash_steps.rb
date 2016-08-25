@@ -41,13 +41,13 @@ Then(/^I put it on favourite$/) do
 	sleep 1
 end
 
-Then(/^I want to read the 490$/) do
-	touch("TextView marked:'Fairy Tail 490.0'")
+Then(/^I want to read the 498$/) do
+	touch("TextView marked:'Fairy Tail 498.0'")
 	sleep 2
 end
 
-Then(/^I want to read the 15$/) do
-	touch("TextView marked:'Metamo Kiss 15.0'")
+Then(/^I want to read the 17$/) do
+	touch("TextView marked:'Metamo Kiss 17.5'")
 	sleep 2
 end
 

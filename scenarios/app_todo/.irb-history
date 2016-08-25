@@ -1,10 +1,3 @@
-query("EditText, marked:''")
-query("EditText marked:''")
-start_test_server_in_background
-query("*")
-enter_text("DetailEditTextPriority", "3")
-touch("LinearLayout id:'LinearLayout01'")
-enter_text("LinearLayout01", 1)
 enter_text("LinearLayout01", "1")
 query("LinearLayout01", setText: "32")
 query("LinearLayout01", setText: "32")
@@ -48,3 +41,10 @@ query("*")
 query("*")
 start_test_server_in_background
 start_test_server_in_background
+start_test_server_in_background
+t
+start_test_server_in_background
+clear
+clear
+query("*")
+exit

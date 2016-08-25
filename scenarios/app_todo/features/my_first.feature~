@@ -201,7 +201,7 @@ Feature: Even a Todo list can be valid for tests!
 		#Then I change the category to Grocery
 		Then I change the category to Movies
 		#Then I change the category to Grocery
-		Then I change the due date to 9/1 – In 1 week
+		Then I change the due date to 8/31 – In 1 week
 		Then I change repeat thing to Every week
 		Then I change repeat thing to Every week
 		Then I change repeat thing to Every week
@@ -216,7 +216,7 @@ Feature: Even a Todo list can be valid for tests!
 		Then I create a new todo
 		Then I name it Vegetables
 		#Then I change the category to Grocery
-		Then I change the due date to 9/1 – In 1 week
+		Then I change the due date to 8/31 – In 1 week
 		Then I change repeat thing to Every week
 		Then I leave the note Vegetables!
 		Then I save the new todo
@@ -225,16 +225,16 @@ Feature: Even a Todo list can be valid for tests!
 		Then I name it Tron
 		Then I change the priority to 1
 		Then I change the category to Movies
-		Then I change the due date to 9/1 – In 1 week
+		Then I change the due date to 8/31 – In 1 week
 		Then I change the due date to 8/28 – Sunday
-		Then I change the due date to 9/1 – In 1 week
+		Then I change the due date to 8/31 – In 1 week
 		Then I change the due date to 8/28 – Sunday
-		Then I change the due date to 9/1 – In 1 week
-		Then I change the due date to 9/1 – In 1 week
-		Then I change the due date to 9/1 – In 1 week
+		Then I change the due date to 8/31 – In 1 week
+		Then I change the due date to 8/31 – In 1 week
+		Then I change the due date to 8/31 – In 1 week
 		Then I change the due date to 8/28 – Sunday
-		Then I change the due date to 9/1 – In 1 week
-		Then I change the due date to 9/1 – In 1 week
+		Then I change the due date to 8/31 – In 1 week
+		Then I change the due date to 8/31 – In 1 week
 		Then I change hiding text until 1
 		Then I change repeat thing to Every week
 		Then I save the new todo
